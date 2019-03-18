@@ -1,0 +1,134 @@
+body{
+  -webkit-print-color-adjust:exact;
+  background: #fff;
+}
+.round{
+	border-radius:10px;
+	border:1px solid #999;	
+}
+
+
+
+#item-table thead th{
+	text-align: center;
+}
+
+#item-table{
+	margin-top:26px;	
+ 	width:100%;
+ 	
+}
+.border{
+	border:1px solid #999;
+}
+.border th,.border td{
+	border:1px solid #999;	
+}
+
+#item-table tbody tr td{
+	border:1px solid #999;
+}
+
+.table-border{
+	border:1px solid #999;
+}
+.bold{
+	font-weight: bold;
+}
+.border-bottom{
+	border-bottom:1px solid #999;
+}
+
+.po-label{
+	width:35%;
+	display:inline-block;
+}
+.center-text{
+	text-align: center;
+}
+.right-text{
+	text-align: right;
+}
+.padding{
+	padding:3px;
+}
+.margin-top{
+	margin-top:5px;
+}
+.dark{
+	background:#333;
+	color:#fff;
+	font-weight: bold;
+	font-size:17px;
+}
+.title{
+	font-size:60px;
+	font-family: "Broadway", arial, Serif;
+	color:#333;
+}
+
+.po-color{
+	color:#f00;
+}
+
+#wrapper{
+	margin:0 auto;
+}
+
+.copy{
+	font-style: italic;
+	color: red;
+	float: right;
+}
+
+.print_ft{
+	margin-bottom: 15px;
+}
+
+.time_date{
+	float: right;	
+}
+
+.signatory-panel{
+	height:90px;
+	position:relative;
+}
+
+.signatory{
+	display:block;	
+	border-bottom:1px solid #999;
+	margin-bottom:5px;
+	text-align: center;
+	height:20px;
+	margin-top:2em;
+}
+
+
+.digital_signature{	
+	height :80px;	
+	z-index: 100;
+	position:absolute;
+	text-align: middle;
+	top:-20%;
+	right:40%;
+	
+}
+
+.space{
+	padding:7px;
+}
+.bank{
+	/*text-align: center;*/
+	border-bottom:1px solid #999;
+	font-weight: bold;
+	font-size: 13px !important;
+}
+
+@media print {
+	.po-color:red;
+	-webkit-print-color-adjust: exact; 
+}
+
+
+
+

@@ -1,0 +1,1067 @@
+<div id='codeigniter_profiler' style='clear:both;background-color:#fff;padding:10px;'>
+
+<fieldset id="ci_profiler_benchmarks" style="border:1px solid #900;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#900;">&nbsp;&nbsp;BENCHMARKS&nbsp;&nbsp;</legend>
+
+
+<table style='width:100%'>
+<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Loading Time: Base Classes&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.0220</td></tr>
+<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Controller Execution Time ( Transaction List / Get Po Forapproval )&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.1530</td></tr>
+<tr><td style='padding:5px;width:50%;color:#000;font-weight:bold;background-color:#ddd;'>Total Execution Time&nbsp;&nbsp;</td><td style='padding:5px;width:50%;color:#900;font-weight:normal;background-color:#ddd;'>0.1750</td></tr>
+</table>
+</fieldset>
+
+<fieldset id="ci_profiler_get" style="border:1px solid #cd6e00;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#cd6e00;">&nbsp;&nbsp;GET DATA&nbsp;&nbsp;</legend>
+
+
+<table style='width:100%; border:none'>
+<tr><td style='width:50%;color:#000;background-color:#ddd;padding:5px'>&#36;_GET['p']&nbsp;&nbsp; </td><td style='width:50%;padding:5px;color:#cd6e00;font-weight:normal;background-color:#ddd;'>1</td></tr>
+<tr><td style='width:50%;color:#000;background-color:#ddd;padding:5px'>&#36;_GET['filter']&nbsp;&nbsp; </td><td style='width:50%;padding:5px;color:#cd6e00;font-weight:normal;background-color:#ddd;'>pending</td></tr>
+</table>
+</fieldset>
+
+<fieldset id="ci_profiler_memory_usage" style="border:1px solid #5a0099;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#5a0099;">&nbsp;&nbsp;MEMORY USAGE&nbsp;&nbsp;</legend>
+<div style='color:#5a0099;font-weight:normal;padding:4px 0 4px 0'>4,633,464 bytes</div></fieldset>
+
+<fieldset id="ci_profiler_post" style="border:1px solid #009900;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#009900;">&nbsp;&nbsp;POST DATA&nbsp;&nbsp;</legend>
+<div style='color:#009900;font-weight:normal;padding:4px 0 4px 0'>No POST data exists</div></fieldset>
+
+<fieldset id="ci_profiler_uri_string" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#000;">&nbsp;&nbsp;URI STRING&nbsp;&nbsp;</legend>
+<div style='color:#000;font-weight:normal;padding:4px 0 4px 0'>transaction_list/get_po_forapproval</div></fieldset>
+
+<fieldset id="ci_profiler_controller_info" style="border:1px solid #995300;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#995300;">&nbsp;&nbsp;CLASS/METHOD&nbsp;&nbsp;</legend>
+<div style='color:#995300;font-weight:normal;padding:4px 0 4px 0'>transaction_list/get_po_forapproval</div></fieldset>
+
+<fieldset style="border:1px solid #0000FF;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#0000FF;">&nbsp;&nbsp;DATABASE:&nbsp; purchase-quirante&nbsp;&nbsp;&nbsp;QUERIES: 1&nbsp;&nbsp;(<span style="cursor: pointer;" onclick="var s=document.getElementById('ci_profiler_queries_db_1').style;s.display=s.display=='none'?'':'none';this.innerHTML=this.innerHTML=='Hide'?'Show':'Hide';">Hide</span>)</legend>
+
+
+<table style='width:100%;' id='ci_profiler_queries_db_1'>
+<tr><td style='padding:5px; vertical-align: top;width:1%;color:#900;font-weight:normal;background-color:#ddd;'>0.0080&nbsp;&nbsp;</td><td style='padding:5px; color:#000;font-weight:normal;background-color:#ddd;'><code><span style="color: #000000">
+<span style="color: #0000BB"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>SELECT</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">*<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>FROM</strong></span><span style="color: #007700"><strong>(</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>SELECT</strong>&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pom</span><span style="color: #007700">.</span><span style="color: #0000BB">reference_no</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">po_date</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">po_number</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">po_remarks</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">dtDelivery</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">purchase_request</span><span style="color: #007700">.</span><span style="color: #0000BB">purchaseNo</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">from_name&nbsp;</span><span style="color: #DD0000">'from_projectCodeName'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">ps</span><span style="color: #007700">.</span><span style="color: #0000BB">is_print</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">ps</span><span style="color: #007700">.</span><span style="color: #0000BB">is_email</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">po_details</span><span style="color: #007700">.</span><span style="color: #0000BB">total_cost</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">po_details</span><span style="color: #007700">.</span><span style="color: #0000BB">total_item</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">status&nbsp;</span><span style="color: #DD0000">'p_status'</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>(</strong></span><span style="color: #0000BB"><strong>SELECT</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C<strong>ON</strong>CAT</span><span style="color: #007700"><strong>(</strong>`</span><span style="color: #DD0000">hr_person_profile</span><span style="color: #007700">`.`</span><span style="color: #DD0000">pp_lastname</span><span style="color: #007700">`,</span><span style="color: #DD0000">',&nbsp;'</span><span style="color: #007700">,&nbsp;`</span><span style="color: #DD0000">hr_person_profile</span><span style="color: #007700">`.`</span><span style="color: #DD0000">pp_firstname</span><span style="color: #007700">`,</span><span style="color: #DD0000">'&nbsp;'</span><span style="color: #007700">,&nbsp;`</span><span style="color: #DD0000">hr_person_profile</span><span style="color: #007700">`.`</span><span style="color: #DD0000">pp_middlename</span><span style="color: #007700">`<strong>)</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>FROM</strong>&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">`</span><span style="color: #DD0000">hr_employee</span><span style="color: #007700">`<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>IN</strong>NER&nbsp;JO<strong>IN</strong>&nbsp;</span><span style="color: #007700">`</span><span style="color: #DD0000">hr_person_profile</span><span style="color: #007700">`&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>ON</strong>&nbsp;</span><span style="color: #007700"><strong>(</strong>`</span><span style="color: #DD0000">hr_employee</span><span style="color: #007700">`.`</span><span style="color: #DD0000">person_profile_no</span><span style="color: #007700">`&nbsp;=&nbsp;`</span><span style="color: #DD0000">hr_person_profile</span><span style="color: #007700">`.`</span><span style="color: #DD0000">pp_person_code</span><span style="color: #007700">`<strong>)</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>WHERE</strong>&nbsp;</span><span style="color: #007700">`</span><span style="color: #DD0000">hr_employee</span><span style="color: #007700">`.`</span><span style="color: #DD0000">emp_number</span><span style="color: #007700">`&nbsp;=&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">preparedBy<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700"><strong>)</strong>&nbsp;</span><span style="color: #DD0000">'preparedBy_name'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>(</strong></span><span style="color: #0000BB"><strong>SELECT</strong>&nbsp;business_name&nbsp;<strong>FROM</strong>&nbsp;business_list&nbsp;<strong>WHERE</strong>&nbsp;business_number&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">supplierID</span><span style="color: #007700"><strong>)</strong>&nbsp;</span><span style="color: #DD0000">'Supplier'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>FROM</strong>&nbsp;purchase_order_main&nbsp;pom<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>IN</strong>NER&nbsp;JO<strong>IN</strong>&nbsp;</span><span style="color: #007700"><strong>(</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>SELECT</strong>&nbsp;</span><span style="color: #007700">*,</span><span style="color: #0000BB"><strong>COUNT</strong></span><span style="color: #007700"><strong>(</strong></span><span style="color: #0000BB"><strong>DIST<strong>IN</strong>CT</strong>&nbsp;itemNo</span><span style="color: #007700"><strong>)</strong>&nbsp;</span><span style="color: #DD0000">'total_item'</span><span style="color: #007700">,</span><span style="color: #0000BB"><strong>SUM</strong></span><span style="color: #007700"><strong>(</strong></span><span style="color: #0000BB">total_unitcost</span><span style="color: #007700"><strong>)</strong>&nbsp;</span><span style="color: #DD0000">'total_cost'&nbsp;</span><span style="color: #0000BB"><strong>FROM</strong>&nbsp;purchase_order_details&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>GROUP&nbsp;BY</strong>&nbsp;po_id<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700"><strong>)</strong></span><span style="color: #0000BB">po_details<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>ON</strong>&nbsp;</span><span style="color: #007700"><strong>(</strong></span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">po_id&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">po_details</span><span style="color: #007700">.</span><span style="color: #0000BB">po_id</span><span style="color: #007700"><strong>)</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>IN</strong>NER&nbsp;JO<strong>IN</strong>&nbsp;purchaserequest_main&nbsp;purchase_request<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>ON</strong>&nbsp;</span><span style="color: #007700"><strong>(</strong></span><span style="color: #0000BB">purchase_request</span><span style="color: #007700">.</span><span style="color: #0000BB">pr_id&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">pr_id</span><span style="color: #007700"><strong>)</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>LEFT&nbsp;JO<strong>IN</strong></strong>&nbsp;po_status&nbsp;ps<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>ON</strong>&nbsp;</span><span style="color: #007700"><strong>(</strong></span><span style="color: #0000BB">ps</span><span style="color: #007700">.</span><span style="color: #0000BB">po_id&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">po_id</span><span style="color: #007700"><strong>)</strong><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>WHERE</strong>&nbsp;pom</span><span style="color: #007700">.</span><span style="color: #0000BB">title_id&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'1'<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700"><strong>AND</strong>&nbsp;</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">status&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'ACTIVE'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB"><strong>ORDER&nbsp;BY</strong>&nbsp;pom</span><span style="color: #007700">.</span><span style="color: #0000BB">po_date&nbsp;DESC</span><span style="color: #007700">,</span><span style="color: #0000BB">pom</span><span style="color: #007700">.</span><span style="color: #0000BB">po_id&nbsp;DESC<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700"><strong>)</strong>&nbsp;</span><span style="color: #0000BB">a&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>LIMIT</strong>&nbsp;0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">20&nbsp;</span>
+</span>
+</code></td></tr>
+</table>
+</fieldset>
+
+<fieldset id="ci_profiler_http_headers" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#000;">&nbsp;&nbsp;HTTP HEADERS&nbsp;&nbsp;(<span style="cursor: pointer;" onclick="var s=document.getElementById('ci_profiler_httpheaders_table').style;s.display=s.display=='none'?'':'none';this.innerHTML=this.innerHTML=='Show'?'Hide':'Show';">Show</span>)</legend>
+
+
+<table style='width:100%;display:none' id='ci_profiler_httpheaders_table'>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_ACCEPT&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>*/*</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_USER_AGENT&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>Mozilla/5.0 (Windows NT 6.1; rv:60.0) Gecko/20100101 Firefox/60.0</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_CONNECTION&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>keep-alive</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>SERVER_PORT&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>80</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>SERVER_NAME&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>localhost</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>REMOTE_ADDR&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>127.0.0.1</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>SERVER_SOFTWARE&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>Apache/2.4.9 (Win32) PHP/5.5.12</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_ACCEPT_LANGUAGE&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>en-US,en;q=0.5</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>SCRIPT_NAME&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>/quirantepurchase/index.php</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>REQUEST_METHOD&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>GET</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'> HTTP_HOST&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>REMOTE_HOST&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>CONTENT_TYPE&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>SERVER_PROTOCOL&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>HTTP/1.1</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>QUERY_STRING&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>p=1&filter=pending</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_ACCEPT_ENCODING&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'>gzip, deflate</td></tr>
+<tr><td style='vertical-align: top;width:50%;padding:5px;color:#900;background-color:#ddd;'>HTTP_X_FORWARDED_FOR&nbsp;&nbsp;</td><td style='width:50%;padding:5px;color:#000;background-color:#ddd;'></td></tr>
+</table>
+</fieldset><fieldset id="ci_profiler_csession" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee"><legend style="color:#000;">&nbsp;&nbsp;SESSION DATA&nbsp;&nbsp;(<span style="cursor: pointer;" onclick="var s=document.getElementById('ci_profiler_session_data').style;s.display=s.display=='none'?'':'none';this.innerHTML=this.innerHTML=='Show'?'Hide':'Show';">Show</span>)</legend><table style='width:100%;display:none' id='ci_profiler_session_data'><tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>session_id&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1187ab8e960e014283b0741671e54155</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>ip_address&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>127.0.0.1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>user_agent&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Mozilla/5.0 (Windows NT 6.1; rv:60.0) Gecko/20100101 Firefox/60.0</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>last_activity&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1527820805</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>user_data&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>user&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>username&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>ADMIN, ADMIN -</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>type_user&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>ADMIN</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>department&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>0</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>project_main&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>Proj_Main&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>Proj_Code&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>lblpersoncode&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>title_profitcenter&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>(MAIN OFFICE) - QCON </td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>title_project&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>QUIRANTE CONSTRUCTION CORP.</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>branch_type&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>MAIN OFFICE</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>emp_id&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>privileges&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Array
+(
+    [0] =&gt; 
+)
+</td></tr>
+</table></fieldset>
+
+<fieldset id="ci_profiler_config" style="border:1px solid #000;padding:6px 10px 10px 10px;margin:20px 0 20px 0;background-color:#eee">
+<legend style="color:#000;">&nbsp;&nbsp;CONFIG VARIABLES&nbsp;&nbsp;(<span style="cursor: pointer;" onclick="var s=document.getElementById('ci_profiler_config_table').style;s.display=s.display=='none'?'':'none';this.innerHTML=this.innerHTML=='Show'?'Hide':'Show';">Show</span>)</legend>
+
+
+<table style='width:100%; display:none' id='ci_profiler_config_table'>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>base_url&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>http://localhost/quirantepurchase/</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>index_page&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>index.php</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>uri_protocol&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>AUTO</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>url_suffix&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>language&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>english</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>charset&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>UTF-8</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>enable_hooks&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>subclass_prefix&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>MY_</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>permitted_uri_chars&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>a-z 0-9~%.:_\-</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>allow_get_array&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>enable_query_strings&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>controller_trigger&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>c</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>function_trigger&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>m</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>directory_trigger&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>d</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>log_threshold&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>0</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>log_path&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>log_date_format&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Y-m-d H:i:s</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>cache_path&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>encryption_key&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>teafdsfadf</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_cookie_name&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>123randomsessionkey123</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_expiration&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>0</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_expire_on_close&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_encrypt_cookie&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_use_database&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_table_name&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>ci_sessions</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_match_ip&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_match_useragent&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>1</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>sess_time_to_update&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>300</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>cookie_prefix&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>cookie_domain&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>cookie_path&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>/</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>cookie_secure&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>global_xss_filtering&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>csrf_protection&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>csrf_token_name&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>csrf_test_name</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>csrf_cookie_name&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>csrf_cookie_name</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>csrf_expire&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>7200</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>compress_output&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>time_reference&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>local</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>rewrite_short_tags&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>proxy_ips&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'></td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>site_title&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Material Management System</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>limit&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>10</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>year&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>2014</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>truck_factor&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Array
+(
+    [BARGING] =&gt; Array
+        (
+            [DT] =&gt; 18
+            [ADT] =&gt; 36
+        )
+
+    [PRODUCTION] =&gt; Array
+        (
+            [DT] =&gt; 14
+            [ADT] =&gt; 28
+        )
+
+)
+</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>pattern&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Array
+(
+    [0] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINE YARD
+                    [1] =&gt; MINE YARD
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [1] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINEYARD 2
+                    [1] =&gt; MINEYARD 2
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [2] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINE YARD
+                    [1] =&gt; LOCATION J
+                    [2] =&gt; SAMPLING 6
+                    [3] =&gt; SAMPLING 7
+                )
+
+            [operation] =&gt; Transfer
+            [selected] =&gt; 
+        )
+
+    [3] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINEYARD 2
+                    [1] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [4] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINEYARD 2
+                    [1] =&gt; MINEYARD 2
+                    [2] =&gt; MINE YARD
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [5] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINEYARD 2
+                    [1] =&gt; LOCATION I
+                    [2] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 2
+        )
+
+    [6] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINE YARD
+                    [1] =&gt; LOCATION J
+                    [2] =&gt; SAMPLING 6
+                    [3] =&gt; LOCATION J
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 2
+        )
+
+    [7] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; MINE YARD
+                    [1] =&gt; LOCATION J
+                    [2] =&gt; SAMPLING 6
+                    [3] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 2
+        )
+
+    [8] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; MINE YARD
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [9] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [10] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [11] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 9
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [12] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [13] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 7
+                    [3] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [14] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; LOCATION J
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [15] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [16] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; LOCATION I
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [17] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; SAMPLING 6
+                    [3] =&gt; SAMPLING 9
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [18] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; LOCATION J
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [19] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; LOCATION J
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [20] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING 7
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [21] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [22] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING 5
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [23] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; SAMPLING 6
+                    [3] =&gt; SAMPLING 9
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [24] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; LOCATION I
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [25] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; SAMPLING 9
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [26] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; LOCATION J
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [27] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; LOCATION J
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [28] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [29] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 1
+        )
+
+    [30] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                )
+
+            [operation] =&gt; Production
+            [selected] =&gt; 
+        )
+
+    [31] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; SAMPLING 6
+                    [3] =&gt; PY 7
+                    [4] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [32] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [33] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING B
+                    [4] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [34] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; PY 7
+                    [2] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [35] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [36] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [37] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [38] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION I
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 7
+                    [3] =&gt; PY 7
+                    [4] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [39] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 7
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [40] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [41] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 7
+                    [3] =&gt; PY 7
+                    [4] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [42] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING B
+                    [4] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [43] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; PY 7
+                    [2] =&gt; SAMPLING B
+                    [3] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [44] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING B
+                    [3] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [45] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING B
+                    [4] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [46] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING B
+                    [2] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [47] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [48] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [49] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 5
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [50] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [51] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [52] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING 7
+                    [3] =&gt; PY 7
+                    [4] =&gt; SAMPLING B
+                    [5] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [53] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 9
+                    [2] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [54] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 7
+                    [3] =&gt; PY 7
+                    [4] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [55] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; LOCATION J
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 7
+                    [3] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Direct
+            [selected] =&gt; 
+        )
+
+    [56] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; PY 7
+                    [1] =&gt; SAMPLING B
+                    [2] =&gt; SAMPLING A
+                    [3] =&gt; SAMPLING B
+                    [4] =&gt; PY 7
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 2
+        )
+
+    [57] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 9
+                    [1] =&gt; SAMPLING 6
+                    [2] =&gt; SAMPLING 7
+                    [3] =&gt; PY 7
+                    [4] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 
+        )
+
+    [58] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 6
+                    [1] =&gt; SAMPLING 7
+                    [2] =&gt; PY 7
+                    [3] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 
+        )
+
+    [59] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 6
+                    [1] =&gt; SAMPLING 7
+                    [2] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 
+        )
+
+    [60] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 5
+                    [1] =&gt; SAMPLING 7
+                    [2] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 
+        )
+
+    [61] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 6
+                    [1] =&gt; SAMPLING 7
+                    [2] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 
+        )
+
+    [62] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 7
+                    [1] =&gt; PY 7
+                    [2] =&gt; SAMPLING B
+                    [3] =&gt; SAMPLING A
+                    [4] =&gt; SAMPLING B
+                    [5] =&gt; PY 7
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 3
+        )
+
+    [63] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 7
+                    [1] =&gt; PY 7
+                    [2] =&gt; SAMPLING A
+                    [3] =&gt; SAMPLING B
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 2
+        )
+
+    [64] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 7
+                    [1] =&gt; PY 7
+                    [2] =&gt; SAMPLING B
+                    [3] =&gt; SAMPLING A
+                    [4] =&gt; PY 7
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 3
+        )
+
+    [65] =&gt; Array
+        (
+            [data] =&gt; Array
+                (
+                    [0] =&gt; SAMPLING 7
+                    [1] =&gt; SAMPLING A
+                )
+
+            [operation] =&gt; Barging
+            [selected] =&gt; 
+        )
+
+)
+</td></tr>
+<tr><td style='padding:5px; vertical-align: top;color:#900;background-color:#ddd;'>accounting&nbsp;&nbsp;</td><td style='padding:5px; color:#000;background-color:#ddd;'>Array
+(
+    [construction_inventory] =&gt; 10
+    [vat_input_tax] =&gt; 30
+    [accounts_payable] =&gt; 42
+)
+</td></tr>
+</table>
+</fieldset></div>
